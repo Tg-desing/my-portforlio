@@ -1,0 +1,322 @@
+html {
+  scroll-behavior: smooth;
+}
+
+head {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.top-header {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #323232;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.logo-container {
+  height: 100%;
+  width: 40%;
+  display: flex;
+}
+
+.logo-image-container {
+  margin: 10px;
+}
+
+.logo-text-container {
+  width: 100%;
+  padding: 25px 0;
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+}
+
+.logo-text-container:hover {
+  color: brown;
+}
+
+#logo-image {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+
+#logo-image:hover {
+  transform: rotate(720deg);
+  transition: 0.8s;
+}
+
+.menu-bar {
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+
+.menu-list {
+  list-style-type: none;
+  float: right;
+  text-align: center;
+  width: 30%;
+}
+
+.menu-button {
+  text-decoration-line: none;
+  text-decoration-color: black;
+  font-size: 2em;
+}
+
+.menu-button-design {
+  font-family: 'mine';
+  text-align: center;
+  height: 50px;
+  margin: 5px;
+  background-color: aquamarine;
+  border-radius: 2px;
+  box-shadow: 0px 0px 2px 2px mediumaquamarine;
+  border: none;
+  box-shadow: 3px 3px 3px black;
+}
+
+.menu-button-design.home {
+  width: 100px;
+}
+
+.menu-button-design.introduce {
+  width: 200px;
+}
+
+.menu-button-design.contact {
+  width: 150px;
+}
+
+.menu-button-design:hover {
+  background-color: aqua;
+  transition: 0.2s;
+}
+
+.menu-button-design:active {
+  box-shadow: none;
+}
+
+@font-face {
+  font-family: 'mine';
+  src: url('font.woff') format('truetype');
+}
+
+body {
+  font-family: 'mine';
+}
+
+#navigate-section {
+  padding-top: 100px;
+  height: 450px;
+}
+
+#navigate-section-1-introduce {
+  height: 150px;
+  padding: 10px;
+  font-size: 5em;
+}
+
+#navigate-section-1-introduce-a {
+  text-decoration-line: none;
+  text-decoration-color: white;
+  color: white;
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+
+.fade-out {
+  position: absolute;
+  text-align: center;
+}
+
+.hovered {
+  opacity: 0;
+}
+
+.fade-in {
+  position: absolute;
+  text-align: center;
+  opacity: 0;
+}
+
+.fade-in:hover {
+  opacity: 1;
+}
+
+#navigate-section-2-tech-stack {
+  padding: 10px;
+  height: 150px;
+  font-size: 5em;
+}
+
+#navigate-section-2-tech-stack-a {
+  text-decoration-line: none;
+  text-decoration-color: white;
+  color: white;
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+
+#navigate-section-3-contact {
+  padding: 10px;
+  height: 150px;
+  font-size: 5em;
+}
+
+#navigate-section-3-contact-a {
+  text-decoration-line: none;
+  text-decoration-color: white;
+  color: white;
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+
+.introduce > p {
+  color: white;
+  text-align: center;
+  font-size: 1.8em;
+}
+.introduce {
+  padding-top: 10rem;
+}
+
+.introduce-animation {
+  padding-left: 30%;
+  padding-right: 30%;
+  display: flex;
+
+  height: 250px;
+}
+
+.title {
+  color: white;
+  font-size: 1.5em;
+}
+
+.content {
+  color: white;
+  font-size: 1.3em;
+}
+
+.tech-stack {
+  padding-top: 10rem;
+  text-align: center;
+}
+
+.project {
+  padding-top: 10rem;
+  text-align: center;
+}
+
+.contact {
+  padding-top: 10rem;
+  text-align: center;
+}
+
+#diamond-ore-animation {
+  padding-top: 50px;
+  animation-name: stone-swing;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 7;
+}
+
+.pikaxe-animation-right {
+  animation-name: right-digging;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 7;
+  width: 30%;
+  height: 60%;
+}
+
+.pikaxe-animation-left {
+  animation-name: left-digging;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 7;
+  width: 30%;
+  height: 60%;
+}
+
+#information-section {
+  padding-top: 300px;
+}
+
+#information-container {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.container {
+  margin-bottom: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: #6e6e6e;
+}
+
+.container-header {
+  text-align: center;
+  font-size: 2em;
+}
+
+.container-content {
+  font-size: 1.5em;
+}
+
+@keyframes right-digging {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes left-digging {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes stone-swing {
+  0% {
+    transform: rotate(0deg);
+  }
+  33% {
+    transform: rotate(-10deg);
+  }
+  66% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
