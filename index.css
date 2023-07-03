@@ -182,27 +182,130 @@ body {
 #navigate-section-3-contact-a {
   text-decoration-line: none;
   text-decoration-color: white;
-  color: white;
+  color: #ffffff;
   justify-content: center;
   display: flex;
   position: relative;
 }
 
-.introduce > p {
-  color: white;
-  text-align: center;
-  font-size: 1.8em;
-}
 .introduce {
-  padding-top: 10rem;
+  display: flex;
+  color: #a0a0a0;
 }
 
-.introduce-animation {
-  padding-left: 30%;
-  padding-right: 30%;
-  display: flex;
+#introduce-container {
+  padding-left: 50px;
+  font-size: 10em;
+  width: 1000px;
+}
 
-  height: 250px;
+#introduce-container > p {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#introduce-my-skill-container {
+  background-color: #535151;
+  width: 800px;
+  height: 500px;
+  margin-top: 40px;
+  margin-right: 30px;
+  font-size: 2em;
+}
+
+.introduce-my-skill-animation {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  padding-top: 10px;
+}
+
+.loading {
+  opacity: 1;
+}
+
+.introduce-my-skill-animation#hello-1 {
+  transition-delay: 0s;
+}
+
+.introduce-my-skill-animation#hello-2 {
+  transition-delay: 0.5s;
+}
+
+.introduce-my-skill-animation#hello-3 {
+  transition-delay: 1s;
+}
+
+.introduce-my-skill-animation#hello-4 {
+  transition-delay: 1.5s;
+}
+
+.introduce-my-skill-animation#hello-5 {
+  transition-delay: 2s;
+}
+
+#html-1 {
+  transition-delay: 2.5s;
+}
+
+#html-2 {
+  transition-delay: 3s;
+}
+
+#html-3 {
+  transition-delay: 3.5s;
+}
+
+#html-4 {
+  transition-delay: 4.5s;
+}
+
+#js-1 {
+  transition-delay: 5s;
+}
+
+#js-2 {
+  transition-delay: 5.5s;
+}
+
+#js-3 {
+  transition-delay: 6s;
+}
+
+#js-4 {
+  transition-delay: 6.5s;
+}
+
+#js-5 {
+  transition-delay: 7s;
+}
+
+#js-6 {
+  transition-delay: 7.5s;
+}
+
+#js-7 {
+  transition-delay: 8s;
+}
+
+#js-8 {
+  transition-delay: 8.5s;
+}
+
+#js-9 {
+  transition-delay: 9s;
+}
+
+#js-10 {
+  transition-delay: 9.5s;
+}
+
+@keyframes text-fading {
+  0% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
 }
 
 .title {

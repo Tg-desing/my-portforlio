@@ -72,3 +72,13 @@ section3.addEventListener('click', (e) => {
     });
   }
 });
+
+window.addEventListener('load', function () {
+  const iterations = this.document.querySelectorAll(
+    '.introduce-my-skill-animation'
+  );
+  console.log(iterations);
+  for (let iteration of iterations) {
+    iteration.classList.add('loading');
+  }
+});
