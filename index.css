@@ -223,89 +223,18 @@ body {
   opacity: 1;
 }
 
-.introduce-my-skill-animation#hello-1 {
-  transition-delay: 0s;
+#gotomenu {
+  position: relative;
+  bottom: -50px;
 }
 
-.introduce-my-skill-animation#hello-2 {
-  transition-delay: 0.5s;
+#gotomenu:hover {
+  color: red;
 }
 
-.introduce-my-skill-animation#hello-3 {
-  transition-delay: 1s;
-}
-
-.introduce-my-skill-animation#hello-4 {
-  transition-delay: 1.5s;
-}
-
-.introduce-my-skill-animation#hello-5 {
-  transition-delay: 2s;
-}
-
-#html-1 {
-  transition-delay: 2.5s;
-}
-
-#html-2 {
-  transition-delay: 3s;
-}
-
-#html-3 {
-  transition-delay: 3.5s;
-}
-
-#html-4 {
-  transition-delay: 4.5s;
-}
-
-#js-1 {
-  transition-delay: 5s;
-}
-
-#js-2 {
-  transition-delay: 5.5s;
-}
-
-#js-3 {
-  transition-delay: 6s;
-}
-
-#js-4 {
-  transition-delay: 6.5s;
-}
-
-#js-5 {
-  transition-delay: 7s;
-}
-
-#js-6 {
-  transition-delay: 7.5s;
-}
-
-#js-7 {
-  transition-delay: 8s;
-}
-
-#js-8 {
-  transition-delay: 8.5s;
-}
-
-#js-9 {
-  transition-delay: 9s;
-}
-
-#js-10 {
-  transition-delay: 9.5s;
-}
-
-@keyframes text-fading {
-  0% {
-    color: black;
-  }
-  100% {
-    color: white;
-  }
+#navigate-to-menu {
+  text-decoration-line: none;
+  text-decoration-color: white;
 }
 
 .title {
@@ -333,32 +262,6 @@ body {
   text-align: center;
 }
 
-#diamond-ore-animation {
-  padding-top: 50px;
-  animation-name: stone-swing;
-  animation-duration: 0.5s;
-  animation-timing-function: linear;
-  animation-iteration-count: 7;
-}
-
-.pikaxe-animation-right {
-  animation-name: right-digging;
-  animation-duration: 0.5s;
-  animation-timing-function: linear;
-  animation-iteration-count: 7;
-  width: 30%;
-  height: 60%;
-}
-
-.pikaxe-animation-left {
-  animation-name: left-digging;
-  animation-duration: 0.5s;
-  animation-timing-function: linear;
-  animation-iteration-count: 7;
-  width: 30%;
-  height: 60%;
-}
-
 #information-section {
   padding-top: 300px;
 }
@@ -383,43 +286,4 @@ body {
 
 .container-content {
   font-size: 1.5em;
-}
-
-@keyframes right-digging {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(-45deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-@keyframes left-digging {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(45deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-@keyframes stone-swing {
-  0% {
-    transform: rotate(0deg);
-  }
-  33% {
-    transform: rotate(-10deg);
-  }
-  66% {
-    transform: rotate(10deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
 }
